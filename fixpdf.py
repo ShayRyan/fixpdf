@@ -110,11 +110,4 @@ with open(infile, 'rb') as pdf_file:
         with open(extract_file, 'wb') as pdf_out_file:
             extract_writer.write(pdf_out_file)
 
-# next version
-# choose input file with file dialog
-# only create extract file if there are extract extract_pages
 
-# default rotate to 180, e.g. 34r -> rotate page 34 by 180
-# rotate clockwise or counterclockwise r90, r-90
-# reverse order of all pages (for when a scan document is fed in wrong way around).
-# replace/substitute pages (delete page and insert new page) e.g. s56f1p2 - page 56 substitute with file 1 page 2
