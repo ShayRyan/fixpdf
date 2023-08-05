@@ -109,5 +109,3 @@ with open(infile, 'rb') as pdf_file:
     if len(extract_pages) > 0:
         with open(extract_file, 'wb') as pdf_out_file:
             extract_writer.write(pdf_out_file)
-
-
